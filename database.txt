@@ -1,0 +1,42 @@
+user{
+    pd_id
+    username
+    email
+    password
+    profile
+}
+logo{
+    pk_id
+    thumbnail(header,footer)
+}
+news{
+    pk_id
+    author_id
+    type
+    category
+    title
+    description
+    banner
+    thumbnail
+    date
+    view
+}
+feedback{
+    pk_id
+    username
+    email
+    phone
+    address
+    message
+    date
+}
+followUs{
+    pk_id
+    label
+    icon(header,footer)
+    url
+}
+description{
+    pk_id
+    description
+}
